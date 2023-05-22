@@ -1,0 +1,19 @@
+<figure class="p-2">
+  <blockquote class="blockquote">
+    <p><%= params[:question] %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    You
+  </figcaption>
+</figure>
+
+<figure class="bg-warning bg-opacity-25 p-2">
+  <blockquote class="blockquote">
+    <p><%= @answer %></p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Your coach
+  </figcaption>
+</figure>
+
+<%= link_to "Ask a new question", ask_path %>

@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+figcaption.blockquote-footer {
+  margin: 0;
+}
+
+figure {
+  border-left: 7px solid lightgray;
+}
